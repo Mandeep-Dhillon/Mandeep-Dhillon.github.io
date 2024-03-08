@@ -1,0 +1,48 @@
+
+h1 {
+    text-align: center; /* Center the content horizontally */
+}
+
+.container {
+    text-align: center; /* Center the content horizontally */
+}
+
+.circle-container {
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the container circular */
+    overflow: hidden; /* Ensures the image stays within the circle */
+    background: #ccc; /* Fallback background color */
+    display: inline-block; /* Display as inline block */
+    margin-bottom: 20px; /* Add margin to separate from buttons */
+}
+
+.circle-container img {
+    width: 100%; /* Ensure the image fills the circle container */
+    height: 100%; /* Ensure the image fills the circle container */
+    object-fit: cover; /* Ensure the image covers the entire circle */
+}
+
+.button-container {
+    display: flex; /* Display buttons in a row */
+    justify-content: center; /* Center buttons horizontally */
+}
+
+.bio {
+    background-color: #f9f9f9; /* Set background color */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.bio p {
+    font-size: 16px; /* Set font size */
+    line-height: 1.6; /* Set line height */
+    margin-bottom: 15px; /* Add margin bottom for spacing between paragraphs */
+}
+
+.bio h2 {
+    font-size: 24px; /* Set font size */
+    margin-bottom: 20px; /* Add margin bottom for spacing */
+    text-align: center; /* Center align heading */
+}
