@@ -36,14 +36,14 @@ h1 {
 }
 
 .bio p {
-    font-size: 16px; /* Set font size */
+    font-size: 20px; /* Set font size */
     line-height: 1.6; /* Set line height */
     margin-bottom: 15px; /* Add margin bottom for spacing between paragraphs */
 }
 
 .bio h2 {
-    font-size: 24px; /* Set font size */
-    margin-bottom: 20px; /* Add margin bottom for spacing */
+    font-size: 30px; /* Set font size */
+    margin-bottom: 10px; /* Add margin bottom for spacing */
     text-align: center; /* Center align heading */
 }
 
@@ -57,7 +57,7 @@ body {
 footer {
     background-color: #333;
     color: white;
-    padding: 20px 0;
+    padding: 10px 0;
     text-align: center;
     margin-top: auto; /* Push the footer to the very bottom of the page */
 }
