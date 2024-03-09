@@ -37,7 +37,7 @@ h1 {
 
 .bio {
     background-color: #f9f9f9; /* Set background color */
-    padding: 20px; /* Add padding for spacing */
+    padding: 10px; /* Add padding for spacing */
     border-radius: 10px; /* Add rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
 }
@@ -45,7 +45,7 @@ h1 {
 .bio p {
     font-size: 20px; /* Set font size */
     line-height: 1.6; /* Set line height */
-    margin-bottom: 15px; /* Add margin bottom for spacing between paragraphs */
+    margin-bottom: 10px; /* Add margin bottom for spacing between paragraphs */
 }
 
 .bio h2 {
