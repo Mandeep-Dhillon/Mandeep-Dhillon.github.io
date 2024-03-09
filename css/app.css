@@ -46,3 +46,18 @@ h1 {
     margin-bottom: 20px; /* Add margin bottom for spacing */
     text-align: center; /* Center align heading */
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body covers the entire viewport height */
+    margin: 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto; /* Push the footer to the very bottom of the page */
+}
